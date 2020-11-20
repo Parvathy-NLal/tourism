@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+.header{
+  background-color:  rgb(8, 59, 40);
+
+}
+.logo{
+    
+    padding: 30px;
+    
+}
+
+.navbar{
+  
+    background-color:  rgb(8, 59, 40);
+    
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    
+ 
+}
+
+.sidebar h2{
+    color: rgb(1, 54, 36);
+    
+    
+}
+.sidebar section{
+    border: 1px solid rgb(2, 44, 29);
+    border-radius: 2%;
+    background-color: rgb(191, 206, 199);
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    opacity: 70%;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    
+  
+
+}
+
+.sidebar div{
+   text-align: justify; 
+   font-family: 'Abel', sans-serif;
+
+
+}
+
+
+
+.sidebar ul{
+    padding: 10px;
+}
+
+.login{
+    width: 25%;
+    border: 1px solid rgb(16, 100, 61);
+    margin-left: 40%;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    background-color: rgb(16, 100, 61);
+    font-family: 'Abel', sans-serif;
+}
+
+.attr{
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+    border: 1px solid  rgb(63, 128, 82);
+    background-color: rgb(63, 128, 82);
+    padding: 20px;
+    margin: 50px;
+    text-align: justify;
+    border-radius: 20px;
+
+}
+
+.attr h5{
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: rgb(129, 117, 117);
+    margin-bottom: 20px;
+    
+    
+
+}
+
+.attr h4{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 40px;
+    
+}
+.attr img{
+    margin-left: 40%;
+    width: 280px;
+
+    
+}
+.attr section{
+    margin-top: 20px;
+}
+
+.dis-lis h1{
+    font-family: 'Abel', sans-serif;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+    color: black;
+
+}
+
+
+ 
+
+
+.p-box{
+    font-family: 'Abel', sans-serif;
+    border: 2px solid rgb(29, 105, 67);
+    border-radius: 10px;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    height: 30em;
+    background-color: rgb(4, 95, 48);
+  
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    object-fit: contain;
+    
+    
+    
+}
+.p-box h5{
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+.p-box p{
+    line-height: 1.25em;
+    object-fit: cover;
+    
+    margin-top: 10px;
+}
+.p-box a{
+    text-decoration: none;
+}
+.p-box img{
+    width:98%;
+}
+
+.whole{
+    overflow-y: scroll;
+}
+
+.condition{
+    padding-left: 30px;
+}
+
+
+
+.input-group { 
+    width: 80%; 
+    height: auto; 
+    padding: 4px; 
+} 
+  
+.progress { 
+    height: 8px; 
+} 
+  
+.progress-bar { 
+    background-color: rgb(21, 88, 38); 
+} 
+
+
+/******************************************************************************************/
+
+/*large devies*/
+@media (min-width: 1200px) {
+    .attr {
+   width: 90%;
+ }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+        .attr {
+   width: 90%;
+ }
+
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+        .attr {
+   width: 90%;
+
+ }
+
+}
+
+
+@media (max-width: 767px) {
+ 
+ .attr img{
+     display: none;
+     visibility: hidden;
+ }
+}
+
+.meter{
+    width: 50%;
+    height: 10px;
+    margin: 10px;
+}
